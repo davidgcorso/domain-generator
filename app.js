@@ -1,7 +1,7 @@
 function domainGenerator () {
     let pronoun = ["la","nuestra", "tu", "su"];
     let adj = ["gran", "increible", "celestial", "impactante", "simple", "real", "humilde", "magestuosa", "tremenda", "magica", "enorme", "poderosa"];
-    let noun = ["comida", "heladeria", "perrera", "pagina", "discoteca", "carniceria", "piezzeria", "veterinaria", "barberia"];
+    let noun = ["comida", "heladeria", "perrera", "pagina", "discoteca", "carniceria", "pizzeria", "veterinaria", "barberia"];
     let domain = [".com", ".cl", ".net", ".gob", ".co"];
 
 let generatorPronoun = Math.floor(Math.random() * pronoun.length); 
